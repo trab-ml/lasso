@@ -1,0 +1,23 @@
+:root {
+    --primary-color: #631fd4;
+    --secondary-color: #1f1926;
+    --light-red: #ff180b;
+    --dark-red: #b50000;
+    --light-gray: #b1a8b9;
+    --natural-white: #fff6ff;
+    --hightlight-black: #1f1926;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.custom-font {
+    font-family: "Nunito Sans", sans-serif;
+}

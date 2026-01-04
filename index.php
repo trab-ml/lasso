@@ -12,7 +12,7 @@ function get_view_path(): string {
     $route = basename($path);
     $routes = [
         'home' => 'home.php',
-        'contact' => 'contact.php',
+        'history' => 'history.php',
     ];
 
     return isset($routes[$route])
