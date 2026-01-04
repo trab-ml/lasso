@@ -9,10 +9,4 @@ sudo ./bin/run.sh # then start needed servers
 ```
 
 - Then go at [http://localhost/lasso/](http://localhost/lasso/)
-
-## TODO
-
-- [ ] intégrer du code venant des projets redive-in-php et amazing-web-app
-- [ ] add routing system to ease up page changing?
-- [ ] single page in php 
-- [ ] proper php project structure
+- [Backlog on github](https://github.com/users/trab-ml/projects/19/views/1)

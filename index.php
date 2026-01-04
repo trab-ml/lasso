@@ -1,29 +1,24 @@
 <?php
-$request = $_SERVER['REQUEST_URI'];
-$viewDir = '/src/views/';
-$computedPath = __DIR__ . $viewDir;
+function get_view_path(): string {
+    $viewDir = __DIR__ . '/src/views/';
+    $requestUri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+    $basePath = '/lasso';
+    $path = str_replace($basePath, '', $requestUri);
 
-// TODO: REMOVE THESES COMMENTS
-//echo "<p>request: $request</p>";
-//echo "<p>viewDir: $viewDir</p>";
-//echo "<p>computedPath: $computedPath</p>";
+    if ($path === '' || $path === '/') {
+        $path = 'home';
+    }
 
-switch ($request) {
-    case '':
-    case '/':
-    case '/lasso/':
-        $computedPath .= 'home.php';
-        break;
-    case '/lasso/contact':
-        $computedPath .= 'contact.php';
-        break;
-    default:
-        http_response_code(404);
-        $computedPath .= '404.php';
-        break;
+    $route = basename($path);
+    $routes = [
+        'home' => 'home.php',
+        'contact' => 'contact.php',
+    ];
+
+    return isset($routes[$route])
+        ? $viewDir . $routes[$route]
+        : $viewDir . '404.php';
 }
 
-// TODO : REMOVE THESES COMMENTS
-//echo "<p>(AFTER) computedPath: $computedPath</p>";
-
+$computedPath = get_view_path();
 require $computedPath;
