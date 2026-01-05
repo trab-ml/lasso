@@ -1,5 +1,9 @@
 RewriteEngine On
 RewriteBase /lasso/
+
+# Authorize access to folders containing static files
+RewriteRule ^(styles|scripts|images|assets)/(.*)$ public/$1/$2 [L]
+
 RewriteRule ^index\\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

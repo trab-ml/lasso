@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
-<?php require_once __DIR__ . '../components/header.php' ?>
+<?php include_once __DIR__ . '/../components/header.php' ?>
 
 <body>
     <h1>A beautiful <strong>history</strong> page</h1>
 </body>
 
-<?php require_once __DIR__ . '../components/footer.php' ?>
+<?php include_once __DIR__ . '/../components/footer.php' ?>
 
 </html>

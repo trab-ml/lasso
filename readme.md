@@ -1,5 +1,11 @@
 # L'Asso
 
+```bash
+composer -v
+composer init
+composer dump-autoload
+```
+
 Une association à but non lucratif !
 
 - On Ubuntu, you could run the code as follows (once you have installed [LAMP tools](https://doc.ubuntu-fr.org/lamp))

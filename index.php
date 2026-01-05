@@ -1,6 +1,6 @@
 <?php
 function get_view_path(): string {
-    $viewDir = __DIR__ . '/src/views/';
+    $viewDir = __DIR__ . '/src/pages/';
     $requestUri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
     $basePath = '/lasso';
     $path = str_replace($basePath, '', $requestUri);
@@ -21,4 +21,6 @@ function get_view_path(): string {
 }
 
 $computedPath = get_view_path();
-require $computedPath;
+
+require 'vendor/autoload.php';
+require_once $computedPath;
