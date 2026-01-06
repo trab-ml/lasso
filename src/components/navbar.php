@@ -50,5 +50,65 @@
             </button>
         </div>
         <!-- nav right side end -->
+
+        <!-- sidebar start -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header bg-black text-white">
+                <div class="d-flex flex-row align-items-center gap-4">
+                    <h5 class="offcanvas-title fs-2" id="offcanvasDarkNavbarLabel">L'Asso</h5>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body p-0 custom-mobile-sidebar">
+                <ul class="navbar-nav justify-content-end flex-grow-1 fs-3">
+                    <li class="nav-item custom-nav-item" data-bs-dismiss="offcanvas">
+                        <a class="nav-link sidebar-nav-link" aria-current="page" href="home">
+                            <img class="icon gap-2" src="images/icon/homeIcon.png" alt="icon accueil">
+                            <span>Accueil</span>
+                        </a>
+                    </li>
+                    <li class="nav-item custom-nav-item" data-bs-dismiss="offcanvas">
+                        <a class="nav-link sidebar-nav-link" aria-current="page" href="news">
+                            <img class="icon gap-2" src="images/icon/newsIcon.png" alt="icon actualités">
+                            <span>Actualités</span>
+                        </a>
+                    </li>
+                    <li class="nav-item custom-nav-item" data-bs-dismiss="offcanvas">
+                        <a class="nav-link sidebar-nav-link" aria-current="page" href="history">
+                            <img class="icon gap-2" src="images/icon/historyIcon.png" alt="icon histoire et patrimoine" />
+                            <span>Histoire</span>
+                        </a>
+                    </li>
+                    <li class="nav-item custom-nav-item" data-bs-dismiss="offcanvas">
+                        <a class="nav-link sidebar-nav-link" aria-current="page" href="donation">
+                            <img class="icon gap-2" src="images/icon/receiveEuroIcon.png" alt="icon accueil">
+                            <span>Donner</span>
+                        </a>
+                    </li>
+                    <li class="nav-item custom-nav-item" data-bs-dismiss="offcanvas">
+                        <a class="nav-link sidebar-nav-link" aria-current="page" href="agenda">
+                            <img class="icon gap-2" src="images/icon/currentProjectIcon.png" alt="icon Projets en cours">
+                            <span>Agenda</span>
+                        </a>
+                    </li>
+                    <li class="nav-item custom-nav-item" data-bs-dismiss="offcanvas">
+                        <a class="nav-link sidebar-nav-link" aria-current="page" href="gallery">
+                            <img class="icon gap-2" src="images/icon/galleryIcon.png" alt="icon page d'accueil">
+                            <span>Galerie</span>
+                        </a>
+                    </li>
+                    <li class="nav-item custom-nav-item" data-bs-dismiss="offcanvas">
+                        <a class="nav-link sidebar-nav-link" aria-current="page" href="question">
+                            <img class="icon gap-2" src="images/icon/questionsIcon.png" alt="icon page Des quetions?">
+                            <span>Des Questions?</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- sidebar end -->
     </div>
 </nav>
