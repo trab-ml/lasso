@@ -16,3 +16,7 @@ sudo ./bin/run.sh # then start needed servers
 
 - Then go at [http://localhost/lasso/](http://localhost/lasso/)
 - [Backlog on github](https://github.com/users/trab-ml/projects/19/views/1)
+
+## Resources
+
+- [weather api](https://rapidapi.com/weatherapi/api/weatherapi-com)

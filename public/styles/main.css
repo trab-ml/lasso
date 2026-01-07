@@ -1,4 +1,9 @@
 :root {
+    --sidebar-yellow: #ffd700;
+    --heading-violet: #3e18d6;
+    --contact-form-bg: #90e2ed;
+    --register-form-bg: #90e2ed;
+
     --primary-color: #631fd4;
     --secondary-color: #1f1926;
     --light-red: #ff180b;
@@ -20,4 +25,199 @@ body {
 
 .custom-font {
     font-family: "Nunito Sans", sans-serif;
+}
+
+img:hover,
+i:hover,
+input[type="checkbox"],
+.cursor-pointer:hover {
+    cursor: pointer;
+}
+
+.header-icon {
+    width: 38px;
+    height: 38px;
+}
+
+.desktop-nav-link.active span {
+    padding-bottom: 0.15rem;
+    border-bottom: 2px solid;
+    width: 100%;
+    height: 2px;
+}
+
+.sidebar-nav-link.active {
+    color: #000;
+    background: #fff;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-main-section {
+    flex: 1 1 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--heading-violet);
+    font-family: "Nunito Sans", sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+h2,
+h3 {
+    font-weight: 600;
+}
+h4,
+h5 {
+    font-weight: 500;
+}
+h6 {
+    font-weight: 400;
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+    h2 {
+        font-size: 1.8rem !important;
+    }
+    h3 {
+        font-size: 1.5rem !important;
+    }
+    h4 {
+        font-size: 1.5rem !important;
+    }
+    h5 {
+        font-size: 1.2rem !important;
+    }
+    h6 {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.75rem;
+    }
+    h4 {
+        font-size: 1.5rem;
+    }
+    h5 {
+        font-size: 1.25rem;
+    }
+    h6 {
+        font-size: 1.25rem;
+    }
+}
+
+.unordered-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lasso-logo-text span:nth-child(1) {
+    font-family: "Nunito Sans", sans-serif, Georgia, serif;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.lasso-logo-text span:nth-child(2) {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    color: var(--sidebar-yellow);
+}
+
+#desktop__sidebar-trigger {
+    border: 1px solid;
+}
+
+#desktop__sidebar-trigger:hover {
+    color: #000;
+    background: #fff;
+}
+
+.custom-mobile-sidebar {
+    background-color: var(--sidebar-yellow);
+}
+
+.custom-mobile-sidebar .navbar-nav .nav-item .nav-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.5rem 1rem;
+    color: #000;
+}
+
+.custom-mobile-sidebar .navbar-nav .nav-item .nav-link .icon {
+    width: 1.5rem;
+    width: 3rem;
+}
+
+.custom-mobile-sidebar .navbar-nav .nav-item .nav-link.active,
+.custom-mobile-sidebar .navbar-nav .nav-item .nav-link:hover {
+    background: #000;
+    color: #fff;
+}
+
+.custom-nav-item {
+    cursor: pointer;
+}
+
+.hidden,
+#sidebar-trigger {
+    display: none;
+}
+
+.weather-info li {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 868px) {
+    .weather-info h3 {
+        font-size: 1rem;
+    }
+    .weather-info li {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #desktop__sidebar-trigger {
+        display: none !important;
+    }
+
+    #sidebar-trigger {
+        display: block !important;
+    }
+
+    #right-side > .custom-navbar-nav:first-child,
+    #user-profile,
+    #get-more-trigger {
+        display: none !important;
+    }
+
+    .heading2 {
+        font-size: 1.25rem;
+        line-height: 1.15;
+    }
 }

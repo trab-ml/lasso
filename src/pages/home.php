@@ -3,7 +3,10 @@
 
 <head>
     <title>Accueil</title>
-    <?php include_once __DIR__ . '/../components/head.php'; ?>
+    <?php 
+    include_once __DIR__ . '/../components/head.php';
+    include_once __DIR__ . '/../components/weather_api.php';
+    ?>
     <link rel="stylesheet" type="text/css" href="styles/home.css">
 </head>
 
@@ -86,8 +89,8 @@
                         <ul class="bg-black text-white unordered-list weather-info">
                             <h3 class="my-2">Actuellement à Lille</h3>
                             <?php
-                            echo "<li class='my-lg-1 my-2'>Temperature : 10 °C</li>";
-                            echo "<li class='my-lg-1 my-2'>Ressenti : 5 °C</li>";
+                            echo "<li class='my-lg-1 my-2'>Température : $temp_c °C</li>";
+                            echo "<li class='my-lg-1 my-2'>Ressenti : $feelslike_c °C</li>";
                             ?>
                         </ul>
                     </div>
