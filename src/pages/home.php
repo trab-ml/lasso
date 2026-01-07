@@ -54,12 +54,55 @@
                 <section>
                     <h2 class="heading2">Galerie</h2>
                     <p>
-                        Découvrez nos actions, événements et projets éducatifs dans notre
+                        Découvrez nos actions, évènements et projets éducatifs dans notre
                         <a href="gallery">galerie</a>.
                     </p>
                 </section>
             </div>
         </section>
+
+        <div class="my-5 home-container">
+            <ul class="d-flex flex-column justify-content-center unordered-list home__social-media">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" class="home__social-media__link">
+                        <img src="images/icon/facebook.png" alt="facebook" class="home__social-media__img">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" class="home__social-media__link">
+                        <img src="images/icon/instagram.png" alt="instagram" class="home__social-media__img">
+                    </a>
+                </li>
+            </ul>
+
+            <div class="container text-center home__news-section">
+                <div class="row">
+                    <div class="col p-0">
+                        <div class="union-banner"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-4 d-flex flex-column justify-content-center bg-black">
+                        <ul class="bg-black text-white unordered-list weather-info">
+                            <h3 class="my-2">Actuellement à Lille</h3>
+                            <?php
+                            echo "<li class='my-lg-1 my-2'>Temperature : 10 °C</li>";
+                            echo "<li class='my-lg-1 my-2'>Ressenti : 5 °C</li>";
+                            ?>
+                        </ul>
+                    </div>
+                    <div class="col col-1"></div>
+                    <div class="col col-7 p-0">
+                        <div class="come-banner"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col p-0">
+                        <div class="education-banner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <?php include_once __DIR__ . '/../components/footer.php'; ?>

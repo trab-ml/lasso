@@ -15,3 +15,65 @@
   display: flex;
   flex-direction: row;
 }
+
+.home-container .home__social-media {
+  width: 10%;
+}
+
+.home-container .home__news-section {
+  width: 80%;
+}
+
+.home__news-section {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.home__news-section .row, .home__news-section .row img {
+  border-radius: 1.5rem;
+}
+
+.home__news-section .row {
+  height: 200px;
+  display: flex;
+  background: #d9d9d9;
+}
+
+.home__news-section .row:nth-child(2) {
+  background: #fff;
+}
+
+.home__news-section .row .col {
+  border-radius: 1.5rem;
+  background: #d9d9d9;
+}
+
+.home__news-section .row:nth-child(2) .col:nth-child(2) {
+  background: none;
+}
+
+.union-banner, .come-banner, .education-banner {
+  min-height: 200px;
+
+  background-size: contain;
+  background-repeat: repeat-x;
+  background-position: center;
+
+  background-color: #000;
+
+  border-radius: 1rem;
+}
+
+.union-banner {
+  background-image: url("../images/home/union.jpg");
+}
+
+.come-banner {
+  background-image: url("../images/home/come.jpg");
+}
+
+.education-banner {
+  background-image: url("../images/home/education.jpg");
+}
