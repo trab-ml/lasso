@@ -39,6 +39,32 @@ input[type="checkbox"],
     height: 38px;
 }
 
+.custom-tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    cursor: pointer;
+}
+
+.custom-tooltiptext {
+    visibility: hidden;
+    width: 130px;
+    top: 105%;
+    left: 50%;
+    margin-left: -53px;
+    background-color: var(--hightlight-black);
+    color: var(--natural-white);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.custom-tooltip:hover .custom-tooltiptext {
+    visibility: visible;
+}
+
 .desktop-nav-link.active span {
     padding-bottom: 0.15rem;
     border-bottom: 2px solid;
