@@ -4,6 +4,7 @@
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Katibeh&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <link rel="stylesheet" href="styles/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="styles/main.css">
+<title>L'Asso</title>
 <style>
 footer .hover-underline {
     color: #fff !important;

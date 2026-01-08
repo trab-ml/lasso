@@ -2,12 +2,12 @@
 <html lang="fr">
 
 <head>
-    <title>Accueil</title>
     <?php 
     include_once __DIR__ . '/../components/head.php';
     include_once __DIR__ . '/../components/weather_api.php';
     ?>
     <link rel="stylesheet" type="text/css" href="styles/home.css">
+    <link rel="stylesheet" type="text/css" href="styles/partners.css">
 </head>
 
 <body>
@@ -103,6 +103,23 @@
                     <div class="col p-0">
                         <div class="education-banner"></div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="images/partners/MEN_2026.jpg" alt="ministère de l'éducation" />
+                </div>
+                <div class="slide">
+                    <img src="images/partners/croix-rouge-fr.png" alt="croix rouge française" />
+                </div>
+                <div class="slide">
+                    <img src="images/partners/education-coalition.png" alt="education coalition" />
+                </div>
+                <div class="slide">
+                    <img src="images/partners/fondation-pour-l'école.svg" alt="fondation pour l'école" height="100px" />
                 </div>
             </div>
         </div>

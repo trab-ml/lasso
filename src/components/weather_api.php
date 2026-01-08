@@ -39,6 +39,3 @@ if (!$err) {
         $current_condition_text = $data['current']['condition']['text'] ?? 'N/A';
     }
 }
-
-echo $err;
-echo "temp: $temp_c - feels: $feelslike_c";
