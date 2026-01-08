@@ -2,6 +2,9 @@
     <div class="container-fluid main-navbar-container px-2">
         <!-- nav left side start -->
         <div class="position-relative d-flex align-items-center left-side">
+            <a href="home">
+                <img src="images/l'asso.png" alt="Logo de L'Asso" class="rounded-circle" />
+            </a>
             <p
                 class="position-absolute top-50 start-100 translate-middle-y m-0 mx-2 p-0 pt-3 text-white text-center text-nowrap fw-semibold fs-1 katibeh-regular">
                 L'Asso
@@ -56,7 +59,8 @@
             aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header bg-black text-white">
                 <div class="d-flex flex-row align-items-center gap-4">
-                    <h5 class="offcanvas-title fs-2" id="offcanvasDarkNavbarLabel">L'Asso</h5>
+                    <img src="images/l'asso.png" alt="Logo de L'Asso" class="rounded-circle" />
+                    <h5 class="offcanvas-title fs-2 text-white" id="offcanvasDarkNavbarLabel">L'Asso</h5>
                 </div>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                     aria-label="Close"></button>

@@ -19,4 +19,7 @@ sudo ./bin/run.sh # then start needed servers
 
 ## Resources
 
+- [bootstrap v5.3.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [unsplash](https://unsplash.com/fr)
+- [img2go](https://www.img2go.com/fr)
 - [weather api](https://rapidapi.com/weatherapi/api/weatherapi-com)
