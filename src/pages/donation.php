@@ -29,9 +29,9 @@
             <div class="container d-flex align-items-center justify-content-between mx-0 py-0 principal">
                 <div class="row d-flex align-items-center justify-content-between m-0 p-0">
 
-                    <div class="col-lg-5 d-flex flex-column align-items-center m-0 p-0 pe-2">
-                        <img src="images/donner.png" alt="don pour l'éducation"
-                            class="img-fluid border border-solid rounded-5" width="400px" />
+                    <div class="col-lg-5 d-flex flex-column align-items-center m-0 pe-2">
+                        <img src="images/solidarity.jpg" alt="don pour l'éducation"
+                            class="img--fluid border border-solid rounded-5 w-100 h-100" />
                     </div>
 
                     <div class="col-lg-7 m-0 p-0 ps-2 text-start">

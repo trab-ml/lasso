@@ -13,10 +13,10 @@
         <section class="container">
             <h1 class="text-center my-3">Actualités - Projets éducatifs en cours</h1>
             <div class="my-0 px-4 text-start content-container">
-                <p class="mx-0 my-2 intro-text">Retrouvez ici les dernières actualités de <strong>L’Asso</strong>, 
-                    nos projets éducatifs, nos actions solidaires et les initiatives mises en place pour favoriser l’accès à l’éducation pour tous.
+                <p class="mx-0 my-2 intro-text">Retrouvez ici les dernières actualités de <strong>L'Asso</strong>, 
+                    nos projets éducatifs, nos actions solidaires et les initiatives mises en place pour favoriser l'accès à l'éducation pour tous.
                 </p>
-                <p><a href="#" target="_blank">Lettre d'information</a></p>
+                <p><a href="assets/lettre-d'information-L'Asso.pdf" target="_blank">Lettre d'information</a></p>
                 <p><a href="#" target="_blank">Soutenir un projet / Participer</a></p>
             </div>
         </section>
@@ -25,7 +25,7 @@
             <div class="row justify-content-center text-center">
                 <div class="col-xl-9 col-xxl-8">
                     <h2 class="heading2">Actualités</h2>
-                    <p class="lead">Suivez l’évolution de nos actions éducatives, nos partenariats et les projets menés sur le terrain.</p>
+                    <p class="lead">Suivez l'évolution de nos actions éducatives, nos partenariats et les projets menés sur le terrain.</p>
                 </div>
             </div>
 
@@ -66,7 +66,7 @@
                 <div class="col-md-6">
                     <p class="text-primary fw-semibold text-decoration-none">Éducation</p>
                     <h3 class="heading3">
-                        Mise en place d’ateliers pédagogiques pour favoriser l’apprentissage et l’autonomie des apprenants
+                        Mise en place d'ateliers pédagogiques pour favoriser l'apprentissage et l'autonomie des apprenants
                     </h3>
                 </div>
 
@@ -80,7 +80,7 @@
                 <div class="col-md-6">
                     <p class="text-primary fw-semibold text-decoration-none">Transmission & Inclusion</p>
                     <h3 class="heading3">
-                        Collecte et partage de témoignages autour de l’éducation, de l’apprentissage et des parcours de réussite
+                        Collecte et partage de témoignages autour de l'éducation, de l'apprentissage et des parcours de réussite
                     </h3>
                 </div>
             </div>
