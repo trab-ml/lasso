@@ -14,6 +14,7 @@ function get_view_path(): string {
         'home' => 'home.php',
         'news' => 'news.php',
         'history' => 'history.php',
+        'donation' => 'donation.php',
     ];
 
     return isset($routes[$route])
