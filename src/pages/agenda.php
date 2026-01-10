@@ -32,7 +32,7 @@
                     <div class="col-md-6">
                         <p class="text-primary fw-semibold text-decoration-none">Éducation & Sensibilisation</p>
                         <h3 class="heading3">Journées de sensibilisation à l'éducation</h3>
-                        <p class="text-muted">Samedi 21 et dimanche 22 septembre 2024</p>
+                        <p class="text-muted">Samedi 10 et dimanche 18 janvier 2026</p>
                         <div class="my-1 my-lg-2 fs-6 lh-sm lh-lg-base">
                             <ul>
                                 <li>Ateliers pédagogiques et échanges autour de l'apprentissage</li>
@@ -54,7 +54,7 @@
                     <div class="col-md-6">
                         <p class="text-primary fw-semibold text-decoration-none">Découverte & Partage</p>
                         <h3 class="heading3">Journée découverte et échanges éducatifs</h3>
-                        <p class="text-muted">Samedi 5 octobre 2024</p>
+                        <p class="text-muted">Samedi 02 Mai 2026</p>
                         <p>
                             Rencontres, discussions et retours d'expérience autour de projets éducatifs
                             innovants et solidaires.
@@ -74,7 +74,7 @@
                     <div class="col-md-6">
                         <p class="text-primary fw-semibold text-decoration-none">Évènement solidaire</p>
                         <h3 class="heading3">L'Asso en fête</h3>
-                        <p class="text-muted">Dimanche 26 janvier 2025</p>
+                        <p class="text-muted">Dimanche 25 janvier 2026</p>
                         <p>
                             Un moment convivial pour rassembler bénévoles, partenaires et bénéficiaires
                             autour des valeurs de l'éducation et du partage.
