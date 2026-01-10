@@ -16,7 +16,8 @@ function get_view_path(): string {
         'history' => 'history.php',
         'donation' => 'donation.php',
         'agenda' => 'agenda.php',
-        'notices' => 'legal_notices.php'
+        'notices' => 'legal_notices.php',
+        'gallery' => 'gallery.php'
     ];
 
     return isset($routes[$route])
