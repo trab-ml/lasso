@@ -30,7 +30,7 @@
                 <div class="row d-flex align-items-center justify-content-between m-0 p-0">
 
                     <div class="col-lg-5 d-flex flex-column align-items-center m-0 pe-2">
-                        <img src="images/solidarity.jpg" alt="don pour l'éducation"
+                        <img src="images/common/solidarity.jpg" alt="don pour l'éducation"
                             class="img--fluid border border-solid rounded-5 w-100 h-100" />
                     </div>
 

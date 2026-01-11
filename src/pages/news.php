@@ -32,15 +32,15 @@
             <div class="row align-items-center gy-md-5">
                 <div class="col-md-6">
                     <div class="mt-4 mt-md-0">
-                        <a class="btn-link" href="images/nope sir.jpg" target="_blank">
-                            <img alt="signboard saying nope to Trump:)" class="img-fluid border rounded my-md-0 my-4" src="images/nope sir.jpg">
+                        <a class="btn-link" href="images/news/nope-sir.jpg" target="_blank">
+                            <img alt="signboard saying nope to Trump:)" class="img-fluid border rounded my-md-0 my-4" src="images/news/nope-sir.jpg">
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <p class="text-primary fw-semibold text-decoration-none">Éducation & Solidarité</p>
                     <h3 class="heading3">Campagne de soutien pour le déploiement de ressources éducatives accessibles</h3>
-                    <a class="btn-link" href="images/the-gang-of-three.png" target="_blank"
+                    <a class="btn-link" href="images/news/the-gang-of-three.png" target="_blank"
                         src="https://www.etsy.com/fr/listing/4316794161/poutine-donald-tump-et-kim-jong-un-o?ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=trump+nope&ref=sc_gallery-1-2&frs=1&plkey=LT5a56d2398280bf4fc1e7015f8815ad49cc62699d%3A4316794161">
                         En savoir plus
                     </a>
@@ -58,8 +58,8 @@
             <div class="row align-items-center gy-md-5">
                 <div class="col-md-6">
                     <div class="mt-4 mt-md-0">
-                        <a href="images/campaign.jpg" target="_blank">
-                            <img alt="people in the street" class="img-fluid border rounded my-md-0 my-4" src="images/campaign.jpg">
+                        <a href="images/news/campaign.jpg" target="_blank">
+                            <img alt="people in the street" class="img-fluid border rounded my-md-0 my-4" src="images/news/campaign.jpg">
                         </a>
                     </div>
                 </div>
@@ -72,8 +72,8 @@
 
                 <div class="col-md-6">
                     <div class="mt-4 mt-md-0">
-                        <a class="btn-link" href="images/group-learning.jpg" target="_blank">
-                            <img alt="group of people learning" class="img-fluid border rounded my-md-0 my-4" src="images/group-learning.jpg">
+                        <a class="btn-link" href="images/news/group-learning.jpg" target="_blank">
+                            <img alt="group of people learning" class="img-fluid border rounded my-md-0 my-4" src="images/news/group-learning.jpg">
                         </a>
                     </div>
                 </div>

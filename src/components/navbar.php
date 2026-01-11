@@ -3,7 +3,7 @@
         <!-- nav left side start -->
         <div class="position-relative d-flex align-items-center left-side">
             <a href="home" class="custom-tooltip">
-                <img src="images/l'asso.png" alt="Logo de L'Asso" class="rounded-circle" />
+                <img src="images/common/l'asso.png" alt="Logo de L'Asso" class="rounded-circle" />
                 <span class="custom-tooltiptext">Usine à potentiels</span>
             </a>
             <p
@@ -60,7 +60,7 @@
             aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header bg-black text-white">
                 <div class="d-flex flex-row align-items-center gap-4 custom-tooltip">
-                    <img src="images/l'asso.png" alt="Logo de L'Asso" class="rounded-circle" />
+                    <img src="images/common/l'asso.png" alt="Logo de L'Asso" class="rounded-circle" />
                     <span class="custom-tooltiptext">Usine à potentiels</span>
                     <h5 class="offcanvas-title fs-2 text-white" id="offcanvasDarkNavbarLabel">L'Asso</h5>
                 </div>

@@ -21,12 +21,12 @@
 
                 <div class="row align-items-center gy-md-5">
 
-                    <!-- event 1 -->
+                    <!-- awarning event -->
                     <div class="col-md-6">
                         <div class="mt-4 mt-md-0">
                             <img alt="Journées de sensibilisation à l'éducation"
                                 class="img-fluid rounded my-md-0 my-4"
-                                src="images/rectangle-wide.png">
+                                src="images/agenda/act-now.jpg">
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -40,15 +40,14 @@
                                 <li>Conférences et rencontres avec des intervenants engagés</li>
                             </ul>
                         </div>
-                        <a class="btn-link" href="#" target="_blank">En savoir plus</a>
                     </div>
 
-                    <!-- event 2 -->
+                    <!-- discovering and sharing event -->
                     <div class="col-md-6">
                         <div class="mt-4 mt-md-0">
                             <img alt="Journée découverte et partage"
                                 class="img-fluid rounded my-md-0 my-4"
-                                src="images/rectangle-wide.png">
+                                src="images/agenda/discover-and-share.jpg">
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -64,11 +63,11 @@
                         </p>
                     </div>
 
-                    <!-- event 3 -->
+                    <!-- L'Asso in celebration -->
                     <div class="col-md-6">
                         <div class="mt-4 mt-md-0">
                             <img alt="L'Asso en fête" class="img-fluid rounded my-md-0 my-4"
-                                src="images/rectangle-wide.png">
+                                src="images/agenda/joyful-ambiance.jpg">
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -85,7 +84,7 @@
                     <div class="col-md-6">
                         <div class="mt-4 mt-md-0">
                             <img alt="Assemblée générale de L'Asso" class="img-fluid rounded my-md-0 my-4"
-                                src="images/assembleeGenerale.png">
+                                src="images/common/assembleeGenerale.png">
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -103,7 +102,7 @@
                         <div class="mt-4 mt-md-0">
                             <a href="assets/lettre-d'information-L'Asso.pdf" target="_blank" rel="noopener noreferrer">
                                 <img alt="Lettre d'information de L'Asso" class="img-fluid rounded my-md-0 my-4"
-                                    src="images/rectangle-wide.png">
+                                    src="images/agenda/postal-box.jpg">
                             </a>
                         </div>
                     </div>
