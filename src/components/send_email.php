@@ -30,38 +30,6 @@ try {
         $contact_form = ToModelMapper::request_to_model($fields);
 
         if (empty($errors)) {
-            // $adminEmail = $_ENV['SENDER_EMAIL_ADRESS'];
-            // $mail = new PHPMailer(true);
-            // $mail->isSMTP();
-            // $mail->Host = $_ENV['SENDER_HOST'];
-            // $mail->SMTPAuth = true;
-            // $mail->Username = $adminEmail;
-            // $mail->Password = $_ENV['SENDER_EMAIL_SECRET'];
-            // $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-            // $mail->Port = 465;
-
-            // $mail->CharSet = 'UTF-8';
-            // $mail->setFrom($_ENV['FROM_EMAIL_ADRESS']);
-            // $mail->addAddress($adminEmail);
-            // $mail->isHTML(true);
-            // $mail->Subject = $data['motif'];
-            // $mail->Body = "Nom(s) et Prénom(s): {$data['firstName']} {$data['lastName']}<br>";
-            // $mail->Body .= "Email: {$data['email']}<br>";
-            // $mail->Body .= "Téléphone: {$data['phone']}<br>";
-            // $mail->Body .= "Adhérent: {$data['adherent']}<br><br><br>";
-            // $mail->Body .= nl2br($data['message']);
-
-            // if ($mail->send()) {
-            //     $response = [
-            //         'status' => 'success',
-            //         'message' => 'Message envoyé avec succès.'
-            //     ];
-            // } else {
-            //     $response = [
-            //         'status' => 'error',
-            //         'message' => 'Échec d\'envoi du message.'
-            //     ];
-            // }
             $response = EmailService::send_email($contact_form);
         } else {
             $response = [
@@ -72,7 +40,7 @@ try {
     } else {
         $response = [
             'status' => 'error',
-            'message' => 'Requête invalide.'
+            'message' => 'Service momentanément disponible.'
         ];
     }
 } catch (Exception $e) {

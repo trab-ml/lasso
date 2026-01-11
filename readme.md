@@ -23,3 +23,6 @@ sudo ./bin/run.sh # then start needed servers
 - [unsplash](https://unsplash.com/fr)
 - [img2go](https://www.img2go.com/fr)
 - [weather api](https://rapidapi.com/weatherapi/api/weatherapi-com)
+- [MDB](https://mdbootstrap.com/docs/standard/)
+- [icon8](https://icons8.com)
+- [Railwail](https://railway.com/)

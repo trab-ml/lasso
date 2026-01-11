@@ -1,3 +1,11 @@
+<?php
+use Lasso\Externals\WeatherService;
+
+$weatherService = new WeatherService();
+
+$weatherData = $weatherService->fetch_weather_data();
+?>
+
 <!doctype html>
 <html lang="fr">
 
@@ -89,8 +97,8 @@
                         <ul class="bg-black text-white unordered-list weather-info">
                             <h3 class="my-2">Actuellement à Lille</h3>
                             <?php
-                            echo "<li class='my-lg-1 my-2'>Température : $temp_c °C</li>";
-                            echo "<li class='my-lg-1 my-2'>Ressenti : $feelslike_c °C</li>";
+                            echo "<li class='my-lg-1 my-2'>Température : " . $weatherData['temp_c'] . "°C</li>";
+                            echo "<li class='my-lg-1 my-2'>Ressenti : " . $weatherData['feelslike_c'] . "°C</li>";
                             ?>
                         </ul>
                     </div>

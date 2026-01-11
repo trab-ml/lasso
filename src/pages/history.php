@@ -4,7 +4,6 @@
 <head>
     <?php
     include_once __DIR__ . '/../components/head.php';
-    include_once __DIR__ . '/../components/weather_api.php';
     ?>
     <link rel="stylesheet" type="text/css" href="styles/home.css">
 </head>
