@@ -12,15 +12,15 @@ document.addEventListener('DOMContentLoaded', function () {
             });
 
             const result = await response.text();
-            console.log("Raw Response:", result);
 
             const jsonResponse = JSON.parse(result);
 
             if (jsonResponse.status === 'success') {
                 alert(jsonResponse.message);
+                const returnUrl = formData.get('returnUrl');
                 setTimeout(() => {
-                    window.location = "/";
-                }, 200);
+                    window.location.href = returnUrl || document.referrer || './';
+                }, 100);
             } else {
                 responseDiv.innerHTML = `<p style="color:red">${jsonResponse.message}</p>`;
             }

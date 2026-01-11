@@ -105,10 +105,11 @@
                                 </label>
                             </div>
 
+                            <input type="hidden" name="returnUrl" value="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES) ?>">
+
                             <button id="send" class="my-1 mx-auto btn text-capitalize" type="submit">
                                 Envoyer
                             </button>
-
                         </div>
                     </form>
                 </div>

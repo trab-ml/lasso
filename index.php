@@ -18,7 +18,8 @@ function get_view_path(): string {
         'agenda' => 'agenda.php',
         'notices' => 'legal_notices.php',
         'gallery' => 'gallery.php',
-        'contact' => 'contact.php'
+        'contact' => 'contact.php',
+        'send' => '../components/' . 'send_email.php'
     ];
 
     return isset($routes[$route])
