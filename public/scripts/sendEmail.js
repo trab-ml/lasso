@@ -10,20 +10,19 @@ document.addEventListener('DOMContentLoaded', function () {
                 method: 'POST',
                 body: formData
             });
-
             const result = await response.text();
-
             const jsonResponse = JSON.parse(result);
 
-            if (jsonResponse.status === 'success') {
-                alert(jsonResponse.message);
-                const returnUrl = formData.get('returnUrl');
-                setTimeout(() => {
-                    window.location.href = returnUrl || document.referrer || './';
-                }, 100);
-            } else {
-                responseDiv.innerHTML = `<p style="color:red">${jsonResponse.message}</p>`;
+            if (jsonResponse.status !== 'success') {
+                responseDiv.innerHTML = `<p style="color:red">${jsonResponse.errors}</p>`;
+                return;
             }
+
+            alert(jsonResponse.message);
+            const returnUrl = formData.get('returnUrl');
+            setTimeout(() => {
+                window.location.href = returnUrl || document.referrer || './';
+            }, 100);
         } catch (error) {
             responseDiv.innerHTML = `<p style="color:red">Error: ${error.message}</p>`;
         }

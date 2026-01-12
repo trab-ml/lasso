@@ -82,7 +82,7 @@
                             </div>
 
                             <div class="col-12">
-                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="0605040302"
+                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="0605040302 (optionel)"
                                     pattern="^\+?\d{1,3}(\s?\d){7,}$" minlength="8" title="Téléphone invalide"
                                     autocomplete>
                             </div>
