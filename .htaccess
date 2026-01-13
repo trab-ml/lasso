@@ -1,10 +1,30 @@
 RewriteEngine On
 RewriteBase /lasso/
 
-# Authorize access to folders containing static files
+# static asset caching
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
+# no revalidation for 30 days
+<IfModule mod_headers.c>
+  <FilesMatch "\.(css|js|png|jpg|jpeg|gif|svg)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+</IfModule>
+
+# static files --> public/
 RewriteRule ^(styles|scripts|images|assets)/(.*)$ public/$1/$2 [L]
 
+# front controller
 RewriteRule ^index\\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /lasso/index.php [L]
+RewriteRule ^ /lasso/index.php [L]
