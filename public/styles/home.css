@@ -18,10 +18,15 @@
 
 .home-container .home__social-media {
   width: 10%;
+  height: auto;
 }
 
 .home-container .home__news-section {
   width: 80%;
+}
+
+#home-main-section {
+  flex: 1 1 auto;
 }
 
 .home__news-section {

@@ -10,12 +10,9 @@ $weatherData = $weatherService->fetch_weather_data();
 <html lang="fr">
 
 <head>
-    <?php 
-    include_once __DIR__ . '/../components/head.php';
-    include_once __DIR__ . '/../components/weather_api.php';
-    ?>
-    <link rel="stylesheet" type="text/css" href="styles/home.css">
-    <link rel="stylesheet" type="text/css" href="styles/partners.css">
+    <?php include_once __DIR__ . '/../components/head.php'; ?>
+    <link rel="preload" href="styles/home.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="styles/partners.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 </head>
 
 <body>
