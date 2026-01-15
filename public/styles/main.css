@@ -17,6 +17,17 @@
     font-family: "Nunito Sans", sans-serif;
 }
 
+.katibeh-regular {
+  font-family: "Katibeh", serif;
+  font-style: normal;
+  line-height: normal;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
 img:hover,
 i:hover,
 input[type="checkbox"],
