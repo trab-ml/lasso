@@ -16,10 +16,10 @@
         <!-- nav right side start -->
         <div id="right-side" class="d-flex flex-row text-white right-side">
             <ul class="d-flex flex-row gap-3 navbar-nav custom-navbar-nav fs-4">
-                <li class="nav-item custom-nav-item">
+                <li class="nav-item mt-1 custom-nav-item">
                     <a href="home" class="nav-link desktop-nav-link" aria-current="page">
                         <img class="icon header-icon" src="images/icon/homeIcon.png" alt="accueil">
-                        <span class="ms-1">Accueil</span>
+                        <span>Accueil</span>
                     </a>
                 </li>
                 <li class="nav-item custom-nav-item">

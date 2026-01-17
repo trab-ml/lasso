@@ -17,12 +17,6 @@
     }
 </style>
 
-<!-- fonts -->
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" as="style"
-    onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Katibeh&display=swap" as="style"
-    onload="this.onload=null;this.rel='stylesheet'">
-
 <!-- bootstrap -->
 <link rel="preload" href="styles/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript>

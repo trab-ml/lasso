@@ -20,6 +20,12 @@ RewriteBase /lasso/
   </FilesMatch>
 </IfModule>
 
+# no revalidation for 1 year
+<FilesMatch "\.(woff2)$">
+  ExpiresActive On
+  ExpiresDefault "access plus 1 year"
+</FilesMatch>
+
 # static files --> public/
 RewriteRule ^(styles|scripts|images|assets)/(.*)$ public/$1/$2 [L]
 
