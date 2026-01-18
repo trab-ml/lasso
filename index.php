@@ -4,7 +4,6 @@ function get_view_path(): string {
     $requestUri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
     $basePath = '/lasso';
     $path = str_replace($basePath, '', $requestUri);
-    // $path = $requestUri;
 
     if ($path === '' || $path === '/') {
         $path = 'home';
