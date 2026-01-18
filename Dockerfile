@@ -18,7 +18,6 @@ RUN echo 'ServerName localhost' >> /etc/apache2/apache2.conf && \
     a2ensite l-asso-website.conf
 COPY --chown=www-data:www-data . .
 RUN chmod -R 755 /var/www/html
-ENV PORT=80
 
-EXPOSE ${PORT}
+EXPOSE 80
 CMD ["apache2-foreground"]
