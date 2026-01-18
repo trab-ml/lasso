@@ -4,6 +4,8 @@ WORKDIR /var/www/html
 
 RUN apt-get update && \
     apt-get upgrade -y && \
+    apt-get install -y git unzip libzip-dev && \
+    docker-php-ext-install zip && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
