@@ -7,7 +7,7 @@ services:
       context: ./
       dockerfile: Dockerfile
     ports:
-      - "8080:80"
+      - "8080:${PORT:-80}"
     volumes:
       - .:/var/www/html
     networks:
