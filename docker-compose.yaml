@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  web:
+    image: lasso:v1.0.0
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
