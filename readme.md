@@ -8,6 +8,7 @@ composer init
 composer dump-autoload
 
 docker-compose down
+# docker-compose build --no-cache
 docker-compose up # then http://localhost:8080
 ```
 
