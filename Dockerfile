@@ -7,8 +7,8 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-# Disable conflicting MPM modules and enable mpm_prefork
-RUN a2dismod mpm_event mpm_worker && \
+# Properly disable conflicting MPM modules and enable mpm_prefork
+RUN a2dismod mpm_event mpm_worker || true && \
     a2enmod mpm_prefork
 
 COPY ./config/apache-config.conf /etc/apache2/sites-available/l-asso-website.conf
