@@ -7,6 +7,10 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
+# Disable conflicting MPM modules and enable mpm_prefork
+RUN a2dismod mpm_event mpm_worker && \
+    a2enmod mpm_prefork
+
 COPY ./config/apache-config.conf /etc/apache2/sites-available/l-asso-website.conf
 RUN a2enmod rewrite headers expires
 RUN echo 'ServerName localhost' >> /etc/apache2/apache2.conf && \
