@@ -22,9 +22,6 @@ function validate_user_inputs_and_send_email(): array
             ];
         }
 
-        $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../../');
-        $dotenv->load();
-
         $fields = [
             'firstName' => ['required' => true, 'min' => 2, 'message' => "Le prénom doit comporter au moins 2 caractères."],
             'lastName' => ['required' => true, 'min' => 2, 'message' => "Le nom doit comporter au moins 2 caractères."],

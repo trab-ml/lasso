@@ -12,18 +12,20 @@ abstract class EmailService
 {
     static function send_email(ContactForm $emailRequest)
     {
-        $adminEmail = $_ENV['SENDER_EMAIL_ADRESS'];
+        $env = EnvService::getInstance();
+
+        $adminEmail = $env->require('SENDER_EMAIL_ADRESS');
         $mail = new PHPMailer(true);
         $mail->isSMTP();
-        $mail->Host = $_ENV['SENDER_HOST'];
+        $mail->Host = $env->require('SENDER_HOST');
         $mail->SMTPAuth = true;
         $mail->Username = $adminEmail;
-        $mail->Password = $_ENV['SENDER_EMAIL_SECRET'];
+        $mail->Password = $env->require('SENDER_EMAIL_SECRET');
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port = 465;
 
         $mail->CharSet = 'UTF-8';
-        $mail->setFrom($_ENV['FROM_EMAIL_ADRESS']);
+        $mail->setFrom($env->require('FROM_EMAIL_ADRESS'));
         $mail->addAddress($adminEmail);
         $mail->isHTML(true);
         $mail->Subject = $emailRequest->get_reason();

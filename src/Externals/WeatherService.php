@@ -2,19 +2,17 @@
 namespace Lasso\Externals;
 
 use Lasso\Interfaces\WeatherInterface;
+use Lasso\Services\EnvService;
 
 require __DIR__ . "/../../vendor/autoload.php";
 
-use Dotenv\Dotenv;
-
 class WeatherService implements WeatherInterface
 {
-    private Dotenv $dotenvInstance;
+    private EnvService $env;
 
     public function __construct()
     {
-        $this->dotenvInstance = Dotenv::createImmutable(__DIR__ . "/../../");
-        $this->dotenvInstance->load();
+        $this->env = EnvService::getInstance();
     }
 
     public function fetch_weather_data(): array
@@ -22,7 +20,7 @@ class WeatherService implements WeatherInterface
         $curl = curl_init();
 
         curl_setopt_array($curl, [
-            CURLOPT_URL => $_ENV['WEATHER_API_URL'],
+            CURLOPT_URL => $this->env->require('WEATHER_API_URL'),
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -30,8 +28,8 @@ class WeatherService implements WeatherInterface
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
             CURLOPT_CUSTOMREQUEST => "GET",
             CURLOPT_HTTPHEADER => [
-                "X-RapidAPI-Host: " . $_ENV['WEATHER_API_HOST'],
-                "X-RapidAPI-Key: " . $_ENV['WEATHER_API_KEY']
+                "X-RapidAPI-Host: " . $this->env->require('WEATHER_API_HOST'),
+                "X-RapidAPI-Key: " . $this->env->require('WEATHER_API_KEY')
             ],
         ]);
 
