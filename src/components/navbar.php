@@ -2,14 +2,16 @@
     <div class="container-fluid main-navbar-container px-2">
         <!-- nav left side start -->
         <div class="position-relative d-flex align-items-center left-side">
-            <a href="home" class="custom-tooltip">
+            <a href="images/common/L'Asso-382x379.png" target="_blank" class="custom-tooltip">
                 <img src="images/common/l'asso.png" alt="Logo de L'Asso" class="rounded-circle" />
                 <span class="custom-tooltiptext">Usine à potentiels</span>
             </a>
-            <p
+            <a href="home">
+                <p
                 class="position-absolute top-50 start-100 translate-middle-y m-0 mx-2 p-0 pt-3 text-white text-center text-nowrap fw-semibold fs-1 katibeh-regular">
                 L'Asso
             </p>
+            </a>
         </div>
         <!-- nav left side end -->
 
