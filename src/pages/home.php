@@ -11,11 +11,30 @@ $weatherData = $weatherService->fetch_weather_data();
 
 <head>
     <?php include_once __DIR__ . '/../components/head.php'; ?>
-    <link rel="preload" href="styles/home.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" href="styles/partners.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/partners.css">
 </head>
 
 <body>
+    <!-- Loading spinner -->
+    <div id="page-loader">
+        <div class="text-center">
+            <div class="spinner-grow text-primary me-2" role="status">
+                <span class="visually-hidden">Chargement...</span>
+            </div>
+            <div class="spinner-grow text-secondary me-2" role="status">
+                <span class="visually-hidden">Chargement...</span>
+            </div>
+            <div class="spinner-grow text-success" role="status">
+                <span class="visually-hidden">Chargement...</span>
+            </div>
+
+            <div class="mt-3">
+                <p class="text-muted">Chargement de L'Asso...</p>
+            </div>
+        </div>
+    </div>
+
     <?php include_once __DIR__ . '/../components/header.php'; ?>
 
     <main id="main-section" class="main-section custom-font grid-item-main">
@@ -73,12 +92,14 @@ $weatherData = $weatherService->fetch_weather_data();
             <ul class="d-flex flex-column justify-content-center unordered-list home__social-media">
                 <li>
                     <a href="https://www.facebook.com/" target="_blank" class="home__social-media__link">
-                        <img src="images/icon/facebook.png" alt="facebook" class="home__social-media__img">
+                        <img width="10px" height="10px" src="images/icon/facebook.png" alt="facebook"
+                            class="home__social-media__img">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/" target="_blank" class="home__social-media__link">
-                        <img src="images/icon/instagram.png" alt="instagram" class="home__social-media__img">
+                        <img width="10px" height="10px" src="images/icon/instagram.png" alt="instagram"
+                            class="home__social-media__img">
                     </a>
                 </li>
             </ul>
