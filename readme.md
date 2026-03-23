@@ -1,6 +1,6 @@
 # L'Asso
 
-[L'Asso](https://lasso-education.up.railway.app/), is a non-profit association !
+[L'Asso](https://lasso-v1-0-0.onrender.com/), is a non-profit association !
 
 ![L'Asso Logo](./public/images/common/L'Asso-382x379.png)
 
@@ -42,6 +42,7 @@ sudo ./exec/run.sh # then start needed servers
 
 - Then go at [http://localhost/lasso/](http://localhost/lasso/)
 - [Backlog on github](https://github.com/users/trab-ml/projects/19/views/1)
+- [The docker image used for deployement](https://hub.docker.com/r/bart712/lasso/)
 
 ### Resources
 
