@@ -17,7 +17,6 @@ exec
 
 composer.json
 composer.lock
-vendor
 
 docker-compose*
 Dockerfile
