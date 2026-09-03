@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lasso-v1-0-0.onrender.com/sitemap.xml

@@ -1,0 +1,15 @@
+# L'Asso
+
+Made by [Ethicarch](https://ethicalarchitect.fr/) : a full-stack web developer i'm on mission to put technology at service of people by designing reliable, ethical, and accessible web applications. My approach prioritizes performance, security, and maintainability to create sovereign, long-term solutions.
+
+## About the project
+
+- [Homepage of Ethicarch](https://lasso-v1-0-0.onrender.com/minimal-readme.md): Minimalist version of the project readme.
+
+## Website Pages
+
+- [homepage](https://lasso-v1-0-0.onrender.com/)
+
+## Social Media
+
+- [linkedin page](https://www.linkedin.com/company/the-ethical-architect)

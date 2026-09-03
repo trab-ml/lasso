@@ -52,4 +52,4 @@ sudo ./exec/run.sh # then start needed servers
 - [weather api](https://rapidapi.com/weatherapi/api/weatherapi-com)
 - [MDB](https://mdbootstrap.com/docs/standard/)
 - [icon8](https://icons8.com)
-- [Railwail](https://railway.com/)
+- [Render](http://render.com/)
