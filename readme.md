@@ -25,8 +25,11 @@ Through partnerships, open resources, and grassroots projects, we turn access in
 Contributors, educators, and supporters are welcome to help us build fairer learning opportunities.
 
 ```bash
+# .env
+
 composer -v
 composer init
+# composer update
 composer dump-autoload
 
 docker-compose down
