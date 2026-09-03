@@ -1,8 +1,35 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="L'Asso, une association humanitaire engagée pour l'accès à 
-    l'éducation pour tous. Convaincus que le savoir est un levier fondamental d'émancipation et de développement, 
-    nous œuvrons chaque jour pour offrir à chacun les moyens d'apprendre, de comprendre et de révéler son potentiel">
+<meta name="description"
+    content="L'Asso, une association humanitaire engagée pour l'accès à l'éducation pour tous. Au quotidien, nous œuvrons pour révéler son potentiel !">
+<meta name="google-site-verification" content="OiyVLS4mHZzellHklWRlakkcrgb85aoqPeC9HSE3iRQ" />
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:url" content="https://lasso-v1-0-0.onrender.com/">
+<meta property="og:site_name" content="L'Asso">
+<meta property="og:title" content="L'Asso, une association engagée pour l'accès à l'éducation">
+<meta property="og:description"
+    content="L'Asso, une association humanitaire engagée pour l'accès à l'éducation pour tous. Au quotidien, nous œuvrons pour révéler son potentiel !">
+<meta property="og:image" content="https://lasso-v1-0-0.onrender.com/tea-homepage.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Ethicarch homepage">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="L'Asso | L'ignorance est une TERRE sans lumière !">
+<meta name="twitter:description"
+    content="L'Asso, une association humanitaire engagée pour l'accès à l'éducation pour tous. Au quotidien, nous œuvrons pour révéler son potentiel !">
+<meta name="twitter:image" content="https://lasso-v1-0-0.onrender.com/portfolio-homepage.png">
+
+<title>L'Asso | L'ignorance est une TERRE sans lumière !</title>
+
+<link rel="canonical" href="https://lasso-v1-0-0.onrender.com/">
+<link rel="stylesheet" href="styles/bootstrap.min.css">
+<link rel="stylesheet" href="styles/main.css">
 
 <!-- critical css -->
 <style>
@@ -36,12 +63,12 @@
         z-index: 9999;
         transition: opacity 0.3s ease-out;
     }
-    
+
     #page-loader.hidden {
         opacity: 0;
         pointer-events: none;
     }
-    
+
     .spinner-grow {
         display: inline-block;
         width: 3rem;
@@ -52,21 +79,23 @@
         opacity: 0;
         animation: spinner-grow 0.75s linear infinite;
     }
-    
+
     @keyframes spinner-grow {
         0% {
             transform: scale(0);
             opacity: 0;
         }
+
         50% {
             opacity: 1;
         }
+
         100% {
             transform: scale(1);
             opacity: 0;
         }
     }
-    
+
     .visually-hidden {
         position: absolute;
         width: 1px;
@@ -80,7 +109,3 @@
     }
 </style>
 
-<link rel="stylesheet" href="styles/bootstrap.min.css">
-<link rel="stylesheet" href="styles/main.css">
-
-<title>L'Asso</title>
