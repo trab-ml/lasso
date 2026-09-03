@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-    <title>Donner</title>
+    <title>Donner à L'Asso</title>
     <?php include_once __DIR__ . '/../components/head.php'; ?>
     <style>
         .principal {

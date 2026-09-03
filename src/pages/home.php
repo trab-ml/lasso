@@ -10,6 +10,7 @@ $weatherData = $weatherService->fetch_weather_data();
 <html lang="fr">
 
 <head>
+    <title>L'Asso | L'ignorance est une TERRE sans lumière !</title>
     <?php include_once __DIR__ . '/../components/head.php'; ?>
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/partners.css">

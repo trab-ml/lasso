@@ -5,6 +5,7 @@
     <?php
     include_once __DIR__ . '/../components/head.php';
     ?>
+    <title>Histoire de L'Asso</title>
     <link rel="stylesheet" type="text/css" href="styles/home.css">
 </head>
 

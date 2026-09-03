@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-    <title>Mentions légales</title>
+    <title>Mentions légales | L'Asso</title>
     <?php include_once __DIR__ . "/../components/head.php"; ?>
     <style>
         body {

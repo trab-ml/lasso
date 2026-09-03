@@ -25,8 +25,6 @@
     content="L'Asso, une association humanitaire engagée pour l'accès à l'éducation pour tous. Au quotidien, nous œuvrons pour révéler son potentiel !">
 <meta name="twitter:image" content="https://lasso-v1-0-0.onrender.com/portfolio-homepage.png">
 
-<title>L'Asso | L'ignorance est une TERRE sans lumière !</title>
-
 <link rel="canonical" href="https://lasso-v1-0-0.onrender.com/">
 <link rel="stylesheet" href="styles/bootstrap.min.css">
 <link rel="stylesheet" href="styles/main.css">

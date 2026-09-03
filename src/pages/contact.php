@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-    <title>Contact</title>
+    <title>Contactez L'Asso</title>
     <?php include_once __DIR__ . '/../components/head.php'; ?>
     <style>
         #contact {

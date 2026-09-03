@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-    <title>Agenda</title>
+    <title>Agenda de L'Asso</title>
     <?php include_once __DIR__ . '/../components/head.php'; ?>
 </head>
 

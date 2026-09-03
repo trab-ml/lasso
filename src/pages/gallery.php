@@ -3,9 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php include_once __DIR__ . '/../components/head.php'; ?>
-    <title>Galerie</title>
+    <title>Galerie de L'Asso</title>
 
     <style>
         .gallery-item img {

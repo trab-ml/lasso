@@ -32,6 +32,10 @@ composer dump-autoload
 docker-compose down
 # docker-compose build --no-cache
 docker-compose up # then http://localhost:8080
+
+# update deploy
+docker build -t [DOCKERHUB_USERNAME]/lasso:[UPDATE_VERSION] .
+docker push [DOCKERHUB_USERNAME]/lasso:[UPDATE_VERSION]
 ```
 
 - On Ubuntu, you could run the code as follows (once you have installed [LAMP tools](https://doc.ubuntu-fr.org/lamp))
